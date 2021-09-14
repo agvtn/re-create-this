@@ -34,7 +34,7 @@ main {
 .top {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 30px;xs
 }
 
 .white {
