@@ -1,0 +1,58 @@
+body {
+  background-color: #d94e4e;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.red {
+  background-color: #d94e4e;
+  display: grid;
+  grid-column: 2/3;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 50px;
+}
+
+.white {
+  display: grid;
+  grid-column: 2/3;
+  background-color: white;
+}
+
+.timer {
+  background-color: blueviolet;
+  text-align: center;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.white {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.text {
+  grid-column: 2/3;
+}
+
+.start {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
