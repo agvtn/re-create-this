@@ -56,15 +56,36 @@ main {
 }
 
 .start {
-  border: none;
-  color: white;
+  border: medium none;
+  color: rgb(219, 82, 77);
+  font-weight: bold;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  box-shadow: rgb(235, 235, 235) 0px 6px 0px;
+  font-size: 22px;
+  height: 55px;
   margin: 4px 2px;
-  cursor: pointer;
+  width: 200px;
+  background-color: white;
+  border-radius: 4px;
+  font-family: "Varela Round", sans-serif;
+
+  /*  cursor: pointer;
+  border: medium none;
+  margin: 20px 0px 0px;
+  padding: 0px 12px;
+  border-radius: 4px;
+  box-shadow: rgb(235, 235, 235) 0px 6px 0px;
+  font-size: 22px;
+  height: 55px;
+  color: rgb(219, 82, 77);
+  font-weight: bold;
+  width: 200px;
+  background-color: white;
+  transition: color 0.5s ease-in-out 0s;
+  text-align: center; */
 }
 
 h1 {
