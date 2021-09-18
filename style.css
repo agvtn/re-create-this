@@ -21,19 +21,13 @@ main {
 header {
   grid-column: 2/3;
   border-bottom: 1px solid white;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: baseline;
-  gap: 50px;
-  padding-top: 0px;
-  padding-right: 12px;
-  max-width: 620px;
-  margin-top: auto; */
 }
 
 nav {
   display: flex;
+}
+nav a:first-child {
+  margin-right: auto;
 }
 
 .logo {
@@ -266,6 +260,7 @@ nav a {
 .text {
   grid-column: 2/3;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 b {
@@ -319,6 +314,7 @@ h3 {
   font-family: "Varela Round", sans-serif;
   font-size: 18px;
   color: white;
+  padding-top: 10px;
 }
 h2 {
   font-family: "Varela Round", sans-serif;
@@ -344,4 +340,33 @@ p {
   font-size: 18px;
   color: #735c60;
   line-height: 30px;
+}
+
+footer {
+  background-color: white;
+  border-top: 1px solid lightgray;
+  padding-top: 50px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+.footer-links a {
+  text-decoration: none;
+  margin: 10px;
+  color: hsl(357, 12%, 42%);
+  font-weight: bold;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  text-align: center;
+  color: hsl(357, 12%, 42%);
 }
