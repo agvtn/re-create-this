@@ -224,6 +224,37 @@ nav a {
   border-radius: 5px;
 }
 
+.est {
+  grid-column: 2/3;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.est h3 {
+  margin-left: 40px;
+}
+
+.estr {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  border-top: 1px solid white;
+  background-color: #c94b46;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 /* White section*/
 
 .white {
@@ -245,6 +276,25 @@ li {
   font-family: "Varela Round", sans-serif;
   font-size: 18px;
   color: #735c60;
+  line-height: 50px;
+  margin-left: 40px;
+}
+
+ul li {
+  font-family: "Varela Round", sans-serif;
+  font-size: 18px;
+  color: #735c60;
+  line-height: 50px;
+  margin-left: 40px;
+  list-style: none;
+}
+ul li::before {
+  content: "\2022";
+  color: #f05b56;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 h4::after {
@@ -274,6 +324,7 @@ h2 {
   font-family: "Varela Round", sans-serif;
   font-size: 35px;
   color: #592025;
+  margin-bottom: 60px;
 }
 
 h4 {
@@ -292,4 +343,5 @@ p {
   font-family: "Varela Round", sans-serif;
   font-size: 18px;
   color: #735c60;
+  line-height: 30px;
 }
