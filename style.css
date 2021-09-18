@@ -16,6 +16,8 @@ main {
   grid-template-columns: 0.5fr 1fr 0.5fr;
 }
 
+/* Header and nav */
+
 header {
   grid-column: 2/3;
   border-bottom: 1px solid white;
@@ -28,6 +30,44 @@ header {
   padding-right: 12px;
   max-width: 620px;
   margin-top: auto; */
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding: 20px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-family: "Varela Round", sans-serif;
+}
+
+nav a {
+  transition: all 0.3s 0.1s;
+  color: white;
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+}
+
+.nav-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  background-color: rgba(224, 107, 103, 0.801);
+  margin: 5px;
+  padding: 5px;
 }
 
 /* Red section */
@@ -63,6 +103,13 @@ header {
   margin-bottom: 30px;
 }
 
+.pro {
+  border-radius: 5px;
+  background-color: rgb(219, 82, 77);
+  margin: 5px;
+  padding: 5px;
+}
+
 .start {
   border: medium none;
   color: rgb(219, 82, 77);
@@ -82,13 +129,6 @@ header {
   margin-bottom: 30px;
 }
 
-.pro {
-  border-radius: 5px;
-  background-color: rgb(219, 82, 77);
-  margin: 5px;
-  padding: 5px;
-}
-
 .milk-the-cat {
   grid-column: 1/2;
   justify-items: center;
@@ -97,20 +137,45 @@ header {
   margin-bottom: 20px;
 }
 
+.tasks {
+  grid-column: 2/3;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.task1 {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  /* flex-direction: row; */
+  /* align-content: center; */
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-left: 5px solid black;
+  padding-bottom: 5px;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+/* White section*/
+
 .white {
   display: grid;
-  grid-column: 2/3;
+  grid-template-columns: 1fr 2fr 1fr;
   background-color: white;
 }
 
 .text {
   grid-column: 2/3;
+  margin-top: 50px;
 }
 
-p {
-  font-family: "Varela Round", sans-serif;
-  font-size: 18px;
-  color: #735c60;
+b {
+  color: #f05b56;
 }
 
 li {
@@ -122,53 +187,14 @@ li {
 h4::after {
   content: "";
   display: block;
-
   width: 24px;
   padding-top: 8px;
   border-bottom: 4px solid #f05b56;
   opacity: 0.6;
+  margin-bottom: 25px;
 }
 
-/* Nav */
-
-nav {
-  display: flex;
-}
-
-.logo {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-  padding: 20px;
-  padding-bottom: 5px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-wrap: nowrap;
-  align-items: center;
-  font-family: "Varela Round", sans-serif;
-}
-nav a {
-  transition: all 0.3s 0.1s;
-  color: white;
-  text-decoration: none;
-  font-family: "Varela Round", sans-serif;
-}
-
-.nav-button {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-wrap: nowrap;
-  align-items: center;
-  padding-bottom: 5px;
-  border-radius: 5px;
-  background-color: rgba(224, 107, 103, 0.801);
-  margin: 5px;
-  padding: 5px;
-}
-
-/* Headings */
+/* Headings and paragraphs*/
 h1 {
   font-family: "Varela Round", sans-serif;
   font-size: 140px;
@@ -197,4 +223,10 @@ h6 {
   font-family: "Varela Round", sans-serif;
   font-size: 15px;
   color: lightgray;
+}
+
+p {
+  font-family: "Varela Round", sans-serif;
+  font-size: 18px;
+  color: #735c60;
 }
