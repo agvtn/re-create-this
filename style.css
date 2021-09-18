@@ -137,6 +137,8 @@ nav a {
   margin-bottom: 20px;
 }
 
+/* Task section */
+
 .tasks {
   grid-column: 2/3;
   justify-content: space-between;
@@ -148,17 +150,29 @@ nav a {
 }
 
 .task1 {
-  display: flex;
-  /* flex-wrap: nowrap; */
-  /* flex-direction: row; */
-  /* align-content: center; */
+  grid-column: 2/3;
+  align-content: center;
+
   justify-content: space-between;
   align-items: center;
   background-color: white;
   border-left: 5px solid black;
   padding-bottom: 5px;
-  margin-top: 1rem;
+  margin-top: 10px;
   border-radius: 5px;
+  margin-bottom: 20px;
+}
+.task2 {
+  grid-column: 2/3;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-left: 5px solid black;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 /* White section*/
